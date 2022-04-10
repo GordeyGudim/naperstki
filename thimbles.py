@@ -10,7 +10,6 @@ def base():
         print("I'm mix.....")
         time.sleep(3)
         rand = random.randint(1,3)
-        print(rand)
         n = int(input("I'm mixing"))
         if n == rand:
             many+=100
